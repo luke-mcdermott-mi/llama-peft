@@ -1,7 +1,9 @@
 # Directions
 ### Set up Environment
 Create a virtual environment: `` python3 -m venv .env ``
+
 Load the virtual environment: ``source .env/bin/activate``
+
 Install dependencies: ``pip install -r requirements.txt``
 
 Set HF token
@@ -15,4 +17,4 @@ Set HF token
 Type ``accelerate config`` in terminal and configure your environment
 
 ### Run with Accelerate
-To launch a run, type ``accelerate launch sciq.py``
+To launch a run across multiple gpus, type ``accelerate launch sciq.py``
